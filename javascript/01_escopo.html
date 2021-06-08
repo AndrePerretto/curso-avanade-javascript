@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Escopo Javascript</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <script>
+
+            let name = 'maycon'
+            {
+                let name = 'oi'
+                console.log(name)
+            }
+
+            function callname(){
+                let name = 'teste'
+                console.log(name)
+            }
+
+            callname()
+           
+        </script>
+    </body>
+</html>
